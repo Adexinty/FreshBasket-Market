@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: solid #e5e7eb;
+}
+
+.hero-content {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-basis: 50%;
+    justify-content: space-between;
+   
+}
+
+.All {
+    font-size: 50px;
+}
+
+.pg {
+    color: #2e3138;
+
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-icon {
+    color: #16a34a;
+    font-size: 30px;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+
+}
+
+
+.list{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.list i {
+    color: #16a34a;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #6b7280;
+}
+
+.sign-in-btn {
+
+    background-color: #16a34a;
+    border-radius: 7px;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+.view {
+
+    background-color: #d0d0d0;
+    border-radius: 7px;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.Order-list {
+    list-style: none;
+    color: #2e3138;
+}
+
+.Same {
+    background: #d0d0d0;
+    border-radius: 20px;
+    width: fit-content;
+    color: #2e3138;
+    padding: 2px 10px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 30px;
+    flex-basis: 50%;
+}
+
+.veg {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.btn {
+    display: flex;
+    gap: 20px;
+}
+
+.How-container{
+    background-color: rgb(208, 220, 215);
+    padding: 50px 20px;
+}
+.Fresh-Text-content{
+     text-align: center;
+    font-size: 18px;
+}
+
+.Fresh-Text-content h3{
+    font-size: 32px;
+   font-weight: 500;
+   padding-bottom: 5px;
+}
+
+.Fresh-Text-content p{
+    color: #4b5563
+}
+
+.How-it-works-card-container{
+    display: flex;
+    gap: 20px;
+    padding: 20px 30px;
+
+}
+
+.How-it-works-card-container i{
+font-size: 30px;
+ color: #02e154;
+ background-color: #d8f1e1;
+ width: fit-content;
+ padding:5px;
+}
+
+.How-it-works-card{
+display: flex;
+flex-direction: column;
+padding: 30px;
+gap: 15px;
+border-radius: 8px;
+background-color: white;}
+
+.How-it-works-card p{
+    color: #4b5563;
+}
+
+
+.Everything-container{
+    padding: 50px 20px;
+}
+
+.Text-content{
+    text-align: center;
+    font-size: 18px;
+}
+
+.Text-content h3{
+   font-size: 32px;
+   font-weight: 500;
+   padding-bottom: 5px;
+}
+
+.Text-content p{
+    color: #4b5563;
+}
+
+
+.Ecard-container ul{
+    list-style: none;
+    color: #4b5563;
+}
+
+.Ecard-container p{
+    color: #4b5563;}
+
+.Ecard-container{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    
+}
+
+.Everything-you-need-card{
+display: flex;
+flex-direction: column;
+padding: 30px;
+gap: 15px;
+border: 1px solid #e5e7eb;
+border-radius: 8px;
+}
+
+
+
+.Ready-container{
+    background-color: rgb(208, 220, 215);
+    padding: 40px 20px;
+}
+
+.Ready-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      background-color: #02e154;
+      padding: 50px ;
+      border-radius: 10px;
+      width: fit-content;
+      justify-content: center;
+      padding: 40px 200px;
+        gap: 20px;
+      
+}
+.Ready-content h3{
+font-size: 32px;
+   font-weight: 500;
+   padding-bottom: 5px;
+   color: white;
+   display: flex;
+ 
+ 
+}
+
+.Ready-content p{
+    color: white;
+    max-width: 700px;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.Ready-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.Account{
+    background-color: white;
+    width: fit-content;
+    border-radius: 5px;
+    border-width: 0px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+
+.Reserved{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 70px;
+}
+
+.Reserved::before{
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #e5e7eb;
+}
+
+.Reserved p{
+    color: #6b7280;
+}
