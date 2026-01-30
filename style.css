@@ -16,7 +16,7 @@ html {
 
 body {
     font-family: Poppins, sans-serif;
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 .header-container {
@@ -94,7 +94,7 @@ body {
 }
 @media (max-width: 420px) {
     .list{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 }
 
@@ -129,6 +129,7 @@ body {
     display: inline-block;
     text-decoration: none;
     color: white;
+    
 }
 
 .view {
@@ -254,7 +255,6 @@ body {
 
 .Fresh-Text-content {
     text-align: center;
-    font-size: 1.8rem;
     margin-bottom: 4rem;
 }
 
@@ -268,7 +268,7 @@ body {
 
 @media (max-width: 420px) {
     .Fresh-Text-content h3 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -282,7 +282,7 @@ p {
 
 @media (max-width: 420px) {
     p {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 }
 
@@ -338,7 +338,7 @@ p {
 
 @media (max-width: 623px) {
     .How-it-works-card h3 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 }
 
@@ -363,13 +363,13 @@ p {
 
 @media (max-width: 420px) {
     .Text-content h3 {
-        font-size: 1.8rem;
+        font-size: 1.3rem;
     }
 }
 
 @media (max-width: 420px) {
     .Text-content p {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 }
 
@@ -416,7 +416,7 @@ p {
 
 @media (max-width: 420px) {
     .Everything-you-need-card{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 }
 
