@@ -69,7 +69,7 @@ body {
 }
 
 .logo-icon {
-    color: #16a34a;
+    color: #059668;
     font-size: 3rem;
 }
 
@@ -92,11 +92,28 @@ body {
     align-items: flex-start;
     gap: 5px;
 }
+@media (max-width: 420px) {
+    .list{
+        font-size: 1.1rem;
+    }
+}
 
 .list i {
-    color: #16a34a;
+    color: #059668;
     flex-shrink: 0;
-    margin-top: 1px;
+    margin: 3px;
+}
+
+@media (max-width: 468px) {
+    .list i{
+        margin: 4px;
+    }
+}
+
+@media (max-width: 435px) {
+    .list i{
+        margin: 2px;
+    }
 }
 
 .nav-items a {
@@ -106,7 +123,7 @@ body {
 
 .sign-in-btn {
 
-    background-color: #16a34a;
+    background-color: #059668;
     border-radius: 7px;
     padding: 1rem 2rem;
     display: inline-block;
@@ -132,6 +149,7 @@ body {
 
 .order-list-container {
     display: flex;
+    width: 100%;
 }
 
 
@@ -154,8 +172,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4rem 3rem;
+    padding: 2rem 1rem;
     flex-basis: 50%;
+    width: 100%;
+    box-sizing: border-box;
+    
 }
 
 
@@ -167,9 +188,10 @@ body {
 
 
 .veg {
-    width: 40rem;
-    height: 30rem;
+    width: 50rem;
+    height: 40rem;
     border-radius: 1rem;
+    object-fit: cover;
 }
 
 
@@ -222,8 +244,11 @@ body {
 
 .How-container {
     background-color: rgb(208, 220, 215);
-    padding: 5rem 2rem;
+    padding: 4rem 0rem;
     align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+
 }
 
 
@@ -243,24 +268,31 @@ body {
 
 @media (max-width: 420px) {
     .Fresh-Text-content h3 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 }
 
 .Fresh-Text-content p {
-
-    color: #635c4b
+color: #635c4b
 }
 
 p {
     font-size: 1.7rem;
 }
 
+@media (max-width: 420px) {
+    p {
+        font-size: 1.1rem;
+    }
+}
+
 
 .How-it-works-card-container {
     display: flex;
     gap: 2rem;
-    padding: 2rem 3rem;
+    padding: 1.5rem 0rem;
+    width: 100%;
+
 
 }
 
@@ -273,11 +305,18 @@ p {
 
 .How-it-works-card-container i {
     font-size: 3rem;
-    color: #02e154;
+    color: #059668;
     background-color: #d8f1e1;
     width: fit-content;
     padding: 5px;
 }
+
+@media (max-width: 420px) {
+    .How-it-works-card-container i{
+       font-size:1rem ;
+    }
+}
+
 
 .How-it-works-card {
     display: flex;
@@ -299,13 +338,15 @@ p {
 
 @media (max-width: 623px) {
     .How-it-works-card h3 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 }
 
 
 .Everything-container {
-    padding: 5rem 2rem;
+    padding: 4rem 0rem;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .Text-content {
@@ -322,7 +363,13 @@ p {
 
 @media (max-width: 420px) {
     .Text-content h3 {
-        font-size: 2rem;
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .Text-content p {
+        font-size: 1.1rem;
     }
 }
 
@@ -362,7 +409,17 @@ p {
     gap: 1.5rem;
     border: 1px solid #e5e7eb;
     border-radius: 8px;
+    width: 100%;
+    
 }
+
+
+@media (max-width: 420px) {
+    .Everything-you-need-card{
+        font-size: 1.1rem;
+    }
+}
+
 
 .Everything-you-need-card h3 {
     font-size: 2rem;
@@ -371,38 +428,36 @@ p {
 
 @media (max-width: 623px) {
     .Everything-you-need-card h3 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 }
 
 
 .Ready-container {
     background-color: rgb(208, 220, 215);
-    padding: 4rem 1rem;
+    padding: 5rem 0rem;
 }
 
 .Ready-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #16a34a;
+    background-color: #059668;
     padding: 5rem;
     border-radius: 10px;
     width: fit-content;
-    padding: 3rem 7rem;
+    padding: 5rem 4rem;
     gap: 2rem;
 
 }
 
 
-@media (max-width: 634px) {
+@media (max-width: 420px) {
     .Ready-content {
         padding: 20px 10px;
         text-align: center;
     }
 }
-
-
 
 
 .Ready-text h3 {
@@ -414,7 +469,11 @@ p {
     
 }
 
-
+@media (max-width: 420px) {
+    .Ready-text h3 {
+      font-size: 1.5rem;
+    }
+}
 
 .Ready-text p {
     color: white;
@@ -422,6 +481,13 @@ p {
     line-height: 1.6;
     font-size: 1.7rem;
 }
+
+@media (max-width: 634px) {
+    .Ready-text p {
+        font-size: 1.1rem;
+    }
+}
+
 
 .Ready-container {
     display: flex;
@@ -441,6 +507,13 @@ p {
     padding: 10px;
     font-weight: 700;
 }
+
+@media (max-width: 420px) {
+    .Account {
+        font-size: 1.1rem;
+    }
+}
+
 
 
 .Reserved {
