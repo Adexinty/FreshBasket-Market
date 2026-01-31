@@ -40,7 +40,7 @@ body {
 
 
 .All {
-    font-size: 5rem;
+    font-size: 4rem;
 
 }
 
@@ -50,7 +50,7 @@ body {
     }
 }
 
-@media(max-width:500px) {
+@media(max-width:600px) {
     .All {
         font-size: 2rem;
     }
@@ -59,8 +59,9 @@ body {
 
 .pg {
     color: #2e3138;
-
+    font-size: 2rem;
 }
+
 
 .logo-wrapper {
     display: flex;
@@ -87,40 +88,12 @@ body {
 }
 
 
-.list {
-    display: flex;
-    align-items: flex-start;
-    gap: 5px;
-}
-@media (max-width: 420px) {
-    .list{
-        font-size: 1rem;
-    }
-}
 
-.list i {
-    color: #059668;
-    flex-shrink: 0;
-    margin: 3px;
-}
-
-@media (max-width: 468px) {
-    .list i{
-        margin: 4px;
-    }
-}
-
-@media (max-width: 435px) {
-    .list i{
-        margin: 2px;
-    }
-}
 
 .nav-items a {
     text-decoration: none;
     color: #6b7280;
 }
-
 .sign-in-btn {
 
     background-color: #059668;
@@ -129,12 +102,11 @@ body {
     display: inline-block;
     text-decoration: none;
     color: white;
-    
+    font-size: 2rem;
 }
 
 .view {
-
-    background-color: #d0d0d0;
+ background-color: #d0d0d0;
     border-radius: 7px;
     padding: 1rem 2rem;
     display: inline-block;
@@ -142,31 +114,37 @@ body {
     color: rgb(0, 0, 0);
 }
 
+
 .Order-list {
     list-style: none;
     color: #2e3138;
 }
 
 
-.order-list-container {
-    display: flex;
-    width: 100%;
+
+
+.list i{
+color: #059668;
 }
 
+
+.list{
+font-size: 2rem;
+}
 
 .Same {
     background: #d0d0d0;
     border-radius: 2rem;
     width: fit-content;
     color: #2e3138;
-    padding: 2px 10px;
+    padding: 6px 15px;
 }
 
-@media (max-width: 670px) {
-    .Same {
-        font-size: 1rem;
-    }
+.Same{
+    font-size: 1.5rem;
 }
+
+
 
 
 .hero-container {
@@ -181,7 +159,7 @@ body {
 }
 
 
-@media (max-width: 623px) {
+@media (max-width: 1105px) {
     .hero-container {
         display: inline-block;
     }
@@ -197,25 +175,7 @@ body {
 
 
 
-@media (max-width: 925px) {
-    .veg {
-        width: 30rem;
-        height: 20rem;
-        align-items: center;
-    }
-}
-
-
-
-@media (max-width: 634px) {
-    .veg {
-        display: block;
-        width: 100%;
-        height: 40rem;
-    }
-}
-
-@media (max-width: 439px) {
+@media (max-width: 1105px) {
     .veg {
         display: block;
         width: 100%;
@@ -236,12 +196,6 @@ body {
     }
 }
 
-@media (max-width: 420px) {
-    .btn {
-        font-size: 10px;
-
-    }
-}
 
 .How-container {
     background-color: rgb(208, 220, 215);
@@ -261,30 +215,17 @@ body {
 
 
 .Fresh-Text-content h3 {
-    font-size: 3.2rem;
+    font-size: 2.2rem;
     font-weight: 500;
     padding-bottom: 5px;
 }
 
-@media (max-width: 420px) {
-    .Fresh-Text-content h3 {
-        font-size: 1.5rem;
-    }
-}
 
 .Fresh-Text-content p {
-color: #635c4b
+color: #635c4b;
+font-size: 2rem;
 }
 
-p {
-    font-size: 1.7rem;
-}
-
-@media (max-width: 420px) {
-    p {
-        font-size: 1rem;
-    }
-}
 
 
 .How-it-works-card-container {
@@ -311,13 +252,6 @@ p {
     padding: 5px;
 }
 
-@media (max-width: 420px) {
-    .How-it-works-card-container i{
-       font-size:1rem ;
-    }
-}
-
-
 .How-it-works-card {
     display: flex;
     flex-direction: column;
@@ -336,12 +270,6 @@ p {
     font-weight: 500;
 }
 
-@media (max-width: 623px) {
-    .How-it-works-card h3 {
-        font-size: 1.3rem;
-    }
-}
-
 
 .Everything-container {
     padding: 4rem 0rem;
@@ -351,33 +279,19 @@ p {
 
 .Text-content {
     text-align: center;
-    font-size: 1.8rem;
     margin-bottom: 4rem;
 }
 
 .Text-content h3 {
-    font-size: 3.2rem;
+    font-size: 2.2rem;
     font-weight: 500;
     padding-bottom: 5px;
 }
 
-@media (max-width: 420px) {
-    .Text-content h3 {
-        font-size: 1.3rem;
-    }
-}
-
-@media (max-width: 420px) {
-    .Text-content p {
-        font-size: 1rem;
-    }
-}
-
-
 .Text-content p {
     color: #4b5563;
+    font-size: 2rem;
 }
-
 
 .Ecard-container ul {
     list-style: none;
@@ -405,31 +319,21 @@ p {
 .Everything-you-need-card {
     display: flex;
     flex-direction: column;
-    padding: 3rem;
+    padding:3rem;
     gap: 1.5rem;
     border: 1px solid #e5e7eb;
     border-radius: 8px;
     width: 100%;
-    
 }
 
-
-@media (max-width: 420px) {
-    .Everything-you-need-card{
-        font-size: 1rem;
-    }
+.Everything-you-need-card li{
+font-size: 1.9rem;
 }
 
 
 .Everything-you-need-card h3 {
     font-size: 2rem;
     font-weight: 500;
-}
-
-@media (max-width: 623px) {
-    .Everything-you-need-card h3 {
-        font-size: 1.5rem;
-    }
 }
 
 
@@ -461,7 +365,7 @@ p {
 
 
 .Ready-text h3 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 500;
     padding-bottom: 5px;
     color: white;
@@ -469,23 +373,12 @@ p {
     
 }
 
-@media (max-width: 420px) {
-    .Ready-text h3 {
-      font-size: 1.5rem;
-    }
-}
 
 .Ready-text p {
     color: white;
     text-align: center;
     line-height: 1.6;
-    font-size: 1.7rem;
-}
-
-@media (max-width: 634px) {
-    .Ready-text p {
-        font-size: 1.1rem;
-    }
+    font-size: 1.8rem;
 }
 
 
@@ -505,20 +398,15 @@ p {
     border-radius: 5px;
     border-width: 0px;
     padding: 10px;
-    font-weight: 700;
+    font-weight: 550;
+    font-size: 2rem;
 }
-
-@media (max-width: 420px) {
-    .Account {
-        font-size: 1.1rem;
-    }
-}
-
 
 
 .Reserved {
     padding: 5rem;
     display: flex;
+    font-size: 2rem;
     justify-content: space-between;
     position: relative;
     padding-top: 7rem;
