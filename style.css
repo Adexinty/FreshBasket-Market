@@ -179,7 +179,7 @@ font-size: 2rem;
     .veg {
         display: block;
         width: 100%;
-        height: 190px;
+        height: 240px;
     }
 }
 
@@ -199,7 +199,7 @@ font-size: 2rem;
 
 .How-container {
     background-color: rgb(208, 220, 215);
-    padding: 4rem 0rem;
+    padding: 5rem 0rem;
     align-items: center;
     width: 100%;
     box-sizing: border-box;
@@ -272,7 +272,7 @@ font-size: 2rem;
 
 
 .Everything-container {
-    padding: 4rem 0rem;
+    padding: 5rem 0rem;
     width: 100%;
     box-sizing: border-box;
 }
