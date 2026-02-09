@@ -23,7 +23,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 1% 4% 1% 4%;
     border-bottom: solid #e5e7eb;
 
 }
@@ -151,7 +151,7 @@ font-size: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 1rem;
+     padding: 1% 4% 1% 4%;
     flex-basis: 50%;
     width: 100%;
     box-sizing: border-box;
@@ -199,7 +199,7 @@ font-size: 2rem;
 
 .How-container {
     background-color: rgb(208, 220, 215);
-    padding: 5rem 0rem;
+    padding: 1% 4% 1% 4%;
     align-items: center;
     width: 100%;
     box-sizing: border-box;
@@ -215,7 +215,7 @@ font-size: 2rem;
 
 
 .Fresh-Text-content h3 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     font-weight: 500;
     padding-bottom: 5px;
 }
@@ -272,7 +272,7 @@ font-size: 2rem;
 
 
 .Everything-container {
-    padding: 5rem 0rem;
+   padding: 1% 4% 1% 4%;
     width: 100%;
     box-sizing: border-box;
 }
@@ -283,7 +283,7 @@ font-size: 2rem;
 }
 
 .Text-content h3 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     font-weight: 500;
     padding-bottom: 5px;
 }
@@ -339,7 +339,7 @@ font-size: 1.9rem;
 
 .Ready-container {
     background-color: rgb(208, 220, 215);
-    padding: 5rem 0rem;
+    padding: 1% 4% 1% 4%;
 }
 
 .Ready-content {
@@ -349,9 +349,10 @@ font-size: 1.9rem;
     background-color: #059668;
     padding: 5rem;
     border-radius: 10px;
-    width: fit-content;
+    width: 100%;
     padding: 5rem 4rem;
     gap: 2rem;
+
 
 }
 
@@ -365,7 +366,7 @@ font-size: 1.9rem;
 
 
 .Ready-text h3 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     font-weight: 500;
     padding-bottom: 5px;
     color: white;
@@ -402,14 +403,13 @@ font-size: 1.9rem;
     font-size: 2rem;
 }
 
+.footer{
+    padding: 1% 4% 1% 4%;
+}
 
 .Reserved {
-    padding: 5rem;
-    display: flex;
-    font-size: 2rem;
-    justify-content: space-between;
-    position: relative;
-    padding-top: 7rem;
+  position: relative;
+  padding-top: 24px; /* create space for the line */
 }
 
 @media (max-width: 875px) {
@@ -423,13 +423,14 @@ font-size: 1.9rem;
 
 
 .Reserved::before {
-    content: '';
-    position: absolute;
-    top: 5rem;
-    left: 0;
-    right: 0;
-    height: 1px;
-    background-color: #e5e7eb;
+  content: "";
+  position: absolute;
+  top: 8px;           /* distance from top of container */
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #e5e7eb;
+  pointer-events: none;
 }
 
 .Reserved p {
